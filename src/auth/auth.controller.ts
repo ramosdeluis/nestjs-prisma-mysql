@@ -113,6 +113,7 @@ export class AuthController {
     @UploadedFiles()
     files: { photo: Express.Multer.File; documents: Express.Multer.File },
   ) {
+    const test = 's';
     return files;
   }
 }
